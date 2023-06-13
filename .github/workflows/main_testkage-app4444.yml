@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'testkage-app4444'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A58786E44A9D4C5C89F1EB61E436D12D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5DF6500120F34A7FB321457AB5D464E0 }}
           package: '*.jar'
