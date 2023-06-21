@@ -15,11 +15,12 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	// Loggerクラスのインスタンスを生成する
-        final Logger logger = Logger.getLogger("SampleLogging");
+	
 	
 	@RequestMapping("/")
 	String sayHello() {
+		// Loggerクラスのインスタンスを生成する
+        	final Logger logger = Logger.getLogger("SampleLogging");
 		// ログを出力する
 		logger.log(Level.FINEST, "ログ出力テスト：finest");
 		logger.log(Level.FINER, "ログ出力テスト：finer");
