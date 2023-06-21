@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'testkage-as'
           slot-name: 'stage'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3938D830B0E64B85843CED84C71790CC }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_831AA3787CD04EC5AC92233F824476EF }}
           package: '*.war'
