@@ -45,11 +45,11 @@ public class DemoApplication {
 			
 			// log()を使用して指定のログレベルメッセージを出力
 			logger.log(Level.INFO, "情報（INFO）メッセージ");
-			throw new Exception();
 			return "Hello World!";
 		} catch (Exception e) {
 			// 引数に渡された例外クラスのスタックトレースを出力
 			logger.log(Level.WARNING, "エラーが発生しました", e);
+			return "Hello World!";
 		}
 	}
 		
