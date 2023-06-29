@@ -45,6 +45,7 @@ public class DemoApplication {
 			
 			// log()を使用して指定のログレベルメッセージを出力
 			logger.log(Level.INFO, "情報（INFO）メッセージ");
+			logger.log(Level.INFO, "テストです");
 			return "Hello World!";
 		} catch (Exception e) {
 			// 引数に渡された例外クラスのスタックトレースを出力
