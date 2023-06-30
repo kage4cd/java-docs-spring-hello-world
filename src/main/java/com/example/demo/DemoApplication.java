@@ -33,6 +33,7 @@ public class DemoApplication {
 			// フォーマッターを作成してハンドラーに登録
 			Formatter formatter = new SimpleFormatter();
 			handler.setFormatter(formatter);
+			ConsoleHandler cHandler = new ConsoleHandler();
 			
 			// それぞれのログレベルのメッセージを出力（指定されたログレベル以上のものだけが出力される）
 			logger.finest("最も詳細な（FINEST）メッセージ");
@@ -46,6 +47,8 @@ public class DemoApplication {
 			// log()を使用して指定のログレベルメッセージを出力
 			logger.log(Level.INFO, "情報（INFO）メッセージ");
 			logger.log(Level.INFO, "テストです");
+			
+			logger.addHandler(cHandler);
 			return "Hello World!";
 		} catch (Exception e) {
 			// 引数に渡された例外クラスのスタックトレースを出力
