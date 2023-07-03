@@ -55,7 +55,7 @@ public class DemoApplication {
 		} catch (Exception e) {
 			// 引数に渡された例外クラスのスタックトレースを出力
 			logger.log(Level.WARNING, "エラーが発生しました", e);
-			return "Hello World!";
+			return "失敗";
 		}
 	}
 		
