@@ -48,8 +48,8 @@ public class DemoApplication {
 			logger.log(Level.INFO, "情報（INFO）メッセージ");
 			logger.log(Level.INFO, "テストです");
 
-			ConsoleHandler cHandler = new ConsoleHandler();
-			logger.addHandler(cHandler);
+			// ConsoleHandler cHandler = new ConsoleHandler();
+			// logger.addHandler(cHandler);
 			
 			return "Hello World!";
 		} catch (Exception e) {
