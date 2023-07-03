@@ -36,16 +36,15 @@ public class DemoApplication {
 			
 			
 			// それぞれのログレベルのメッセージを出力（指定されたログレベル以上のものだけが出力される）
-			logger.finest("最も詳細な（FINEST）メッセージ");
-			logger.finer("詳細な（FINER）メッセージ");
-			logger.fine("通常（FINE）メッセージ");
-			logger.config("構成（CONFIG）メッセージ");
-			logger.info("情報（INFO）メッセージ");
-			logger.warning("警告（WARNING）メッセージ");
-			logger.severe("重大（SEVERE）メッセージ");
+			// logger.finest("最も詳細な（FINEST）メッセージ");
+			// logger.finer("詳細な（FINER）メッセージ");
+			// logger.fine("通常（FINE）メッセージ");
+			// logger.config("構成（CONFIG）メッセージ");
+			// logger.info("情報（INFO）メッセージ");
+			// logger.warning("警告（WARNING）メッセージ");
+			// logger.severe("重大（SEVERE）メッセージ");
 			
 			// log()を使用して指定のログレベルメッセージを出力
-			logger.log(Level.INFO, "情報（INFO）メッセージ");
 			logger.log(Level.INFO, "テストです");
 
 			// ConsoleHandler cHandler = new ConsoleHandler();
