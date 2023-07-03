@@ -47,8 +47,8 @@ public class DemoApplication {
 			// log()を使用して指定のログレベルメッセージを出力
 			logger.log(Level.INFO, "テストです");
 
-			// ConsoleHandler cHandler = new ConsoleHandler();
-			// logger.addHandler(cHandler);
+			ConsoleHandler cHandler = new ConsoleHandler();
+			logger.addHandler(cHandler);
 			
 			return "Hello World!";
 		} catch (Exception e) {
