@@ -27,7 +27,7 @@ public class DemoApplication {
 			logger.setLevel(Level.INFO);
 			
 			// ハンドラーを作成してロガーに追加
-			Handler handler = new FileHandler("sample.log");
+			Handler handler = new FileHandler("/home/sample.log");
 			logger.addHandler(handler);
 			
 			// フォーマッターを作成してハンドラーに登録
