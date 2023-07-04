@@ -23,16 +23,16 @@ public class DemoApplication {
 		// ロガーを取得（ロギングの対象のパッケージ名やクラス名を引数とする）
 		Logger logger = Logger.getLogger("LoggingSample");
 		try{
-			// ログレベルを設定（INFOに設定した場合これより低いレベルのメッセージは破棄される）
-			logger.setLevel(Level.INFO);
+			// // ログレベルを設定（INFOに設定した場合これより低いレベルのメッセージは破棄される）
+			// logger.setLevel(Level.INFO);
 			
-			// ハンドラーを作成してロガーに追加
-			Handler handler = new FileHandler("/home/sample.log");
-			logger.addHandler(handler);
+			// // ハンドラーを作成してロガーに追加
+			// Handler handler = new FileHandler("/home/sample.log");
+			// logger.addHandler(handler);
 			
-			// フォーマッターを作成してハンドラーに登録
-			Formatter formatter = new SimpleFormatter();
-			handler.setFormatter(formatter);
+			// // フォーマッターを作成してハンドラーに登録
+			// Formatter formatter = new SimpleFormatter();
+			// handler.setFormatter(formatter);
 			
 			
 			// それぞれのログレベルのメッセージを出力（指定されたログレベル以上のものだけが出力される）
